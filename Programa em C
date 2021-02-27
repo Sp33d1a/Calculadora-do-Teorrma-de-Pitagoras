@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main ()
+{
+    printf("Bem-vindo a calculadora de hipotenusa\n");
+
+    float Cateto1;
+    float Cateto2;
+    float Hipotenusa;
+    float Hipotenusa2;
+    
+    printf("Digite o Valor do Primeiro Cateto:");
+    scanf("%f", &Cateto1);
+    
+    printf("Digite o Valor do Segundo Cateto:");
+    scanf("%f", &Cateto2);
+    
+    Hipotenusa2 = (Cateto1 * Cateto1) + (Cateto2 * Cateto2);
+    Hipotenusa = sqrt(Hipotenusa2);
+    
+    printf("O valor da Hipotenusa é:%f", Hipotenusa);
+    
+
+    return 0;
+
+}
